@@ -245,3 +245,18 @@ a:hover {
 	width:100%;
 	background-color:#d28989;	
 }
+.upcoming_bloc {
+	margin-top:10px;
+	margin-left:30px;	
+}
+.upcoming_bloc li {
+	height:40px;
+	list-style-image:url(images/bullet.png);
+}
+.upcoming_title {
+	color:#197537;
+	font-weight:bold;
+}
+.upcoming_info {
+	color:#6f6f6f;
+}
