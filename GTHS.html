@@ -3,6 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script>
+$(document).ready(function(e) {
+    $('.menu_mainitem').bind('mouseover', function(e) {
+		submenu = $(this).find('ul .menu_sub');
+		menuitem = $(this).find('.menu_main, li');
+		console.log($(submenu).html());	
+	})
+});
+</script>
 <title>Untitled Document</title>
 </head>
 

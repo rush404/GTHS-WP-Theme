@@ -78,35 +78,42 @@ body {
 	font-family:Arial,'helvetica';
 	font-size:15px;
 	text-transform:uppercase;
-	font-weight:bold;
+	font-weight:normal;
 	
 }
 .menu_main li{
 	display:inline-block;
 	padding-top:18px;
 	padding-left:10px;
-	padding-right:10px;
-	margin-left:5px;
+	padding-r	ight:10px;
+	margin-left:10px;
+	height:35px;
 }	
 .menu_sub li{
 	display:block;
-	display:none;
+	position:relative;
+	top:0px;
+	
 }	
 .menu_mainitem {
 	display:inline-block;
 	vertical-align:top;	
+	text-shadow: 0px 1px 0px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=-1);
 }
+
 .menu_main a {
 	color:#fff;
 	text-decoration:none;
-	text-shadow: 0px -1px 0px #000000;
-	filter: dropshadow(color=#000000, offx=0, offy=-1);
 }
-.current {
+.current,.menu_main li:hover {
 	background-image:url(images/menubg_selected.png);
 	position:relative;
 	top: -1px;
 	height:35px;
+	padding-top:19px !important;
+	padding-left:9px !important;
+	padding-right:9px !important;
 	text-shadow: 0px -1px 0px #000000;
 	border-right:1px solid #c7c7c7;
 	border-left:1px solid #c7c7c7;
