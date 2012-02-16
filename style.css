@@ -1,0 +1,114 @@
+/* CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End Reset CSS */
+
+
+body {
+	background-color:#f5f5f5;
+}
+
+
+#main {
+	width:900px;
+	margin:0 auto;
+	background-color:rgba(0,0,0,0.0);
+}
+#header {
+	height:50px;	
+}
+#slider {
+	height:300px;	
+}
+
+#mainmenu {
+	background-image:url(images/menubg.png);	
+	height:51px;
+	border:1px solid #000;
+	-webkit-box-shadow: 0px 0px 3px #303030;
+	-moz-box-shadow: 0px 0px 3px #303030;
+	box-shadow: 0px 0px 3px #303030;
+	font-family:Arial,'helvetica';
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	
+}
+.menu_main li{
+	display:inline-block;
+	padding-top:18px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:5px;
+}	
+.menu_sub li{
+	display:block;
+	display:none;
+}	
+.menu_mainitem {
+	display:inline-block;
+	vertical-align:top;	
+}
+.menu_main a {
+	color:#fff;
+	text-decoration:none;
+	text-shadow: 0px -1px 0px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=-1);
+}
+.current {
+	background-image:url(images/menubg_selected.png);
+	position:relative;
+	top: -1px;
+	height:35px;
+	text-shadow: 0px -1px 0px #000000;
+	border-right:1px solid #c7c7c7;
+	border-left:1px solid #c7c7c7;
+	filter: dropshadow(color=#000000, offx=0, offy=-1);
+}
