@@ -64,9 +64,7 @@ body {
 #header {
 	height:50px;	
 }
-#slider {
-	height:300px;	
-}
+
 
 #mainmenu {
 	background-image:url(images/menubg.png);	
@@ -85,12 +83,12 @@ body {
 	display:inline-block;
 	padding-top:18px;
 	padding-left:10px;
-	padding-r	ight:10px;
+	padding-right:10px;
 	margin-left:10px;
 	height:35px;
 }	
 .menu_sub li{
-	display:block;
+	display:none;
 	position:relative;
 	top:0px;
 	
@@ -118,4 +116,26 @@ body {
 	border-right:1px solid #c7c7c7;
 	border-left:1px solid #c7c7c7;
 	filter: dropshadow(color=#000000, offx=0, offy=-1);
+}
+#searchbox {
+	display:inline-block;
+	float:right;
+	background-color:#fff;
+	margin-right:20px;
+	margin-top:10px;
+	
+		
+}
+
+#searchbox input {
+	width:30px;
+	padding:7px;
+	margin:0px;
+	padding-left:28px;
+	background-color:#fff;
+	border:1px solid #787878;
+	border-bottom: 1px solid #a3a3a3;
+	background-image:url(images/searchicon.png);
+	background-repeat:no-repeat;
+	font-size:12px;
 }
